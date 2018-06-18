@@ -1,0 +1,112 @@
+.navbar{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.container{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: gainsboro;
+}
+#map{
+    margin-bottom: 100px;
+}
+.container{
+    margin-top: 200px;
+    border-radius: 40px;
+    padding-top: 40px;
+}
+h2, h3, label{
+    border-bottom: solid 1px;
+    border-bottom-color: darkred;
+    color: #8b0000;
+    margin-right: 33%;
+    font-weight: 900;
+}
+.form-group{
+    margin-top: 100px;
+}
+#submitButton{
+    color: #8b0000;
+    font-weight: 900;  
+}
+#submitButton:hover{
+    background-color: #777;
+    border-color: #333;
+}
+.quote{
+    text-align: left;
+    margin: 30px 15%;
+}
+.indent{
+    text-indent: 3em;
+}
+#toTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+}
+#toTopImg{
+    height: 20%;
+    width: auto;
+}
+#toTopBtn:hover {
+    background-color: #333;
+    border-color: #000;
+}
+body{
+    background-image: url(pictures/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+.container{
+    background-color: gainsboro;
+}
+.jumbotron{
+    text-align: left;
+}
+div.gallery {
+    border: 1px solid #ccc;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+@media only screen and (max-width: 770px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#submitButton{
+    margin: 10px 30% 40px 30%;
+    padding: 20px 60px;
+}
